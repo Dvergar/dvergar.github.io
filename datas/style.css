@@ -1,0 +1,132 @@
+
+
+body {
+	background-color:#F7F7F7;
+}
+
+#header {
+  margin-top: 5%;
+}
+
+#header>h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  font-size: 50pt;
+  text-transform: uppercase;
+  float: left;
+}
+
+.social {
+  color: #1eaedb;
+  font-size: 25pt;
+  float: right;
+  margin-right: 5pt;
+}
+
+a.social {
+  text-decoration: none;
+}
+
+a.social:hover {
+  color: #000000;
+}
+
+.label {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.label a {
+  color: #F7F7F7;
+  text-decoration:none;
+}
+
+.label a:after{
+  font-family: FontAwesome;
+  content: " \f14c";
+}
+
+.menu {
+  background-color: #F7F7F7;
+  color: #F7F7F7;
+  margin-right: 15px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a.menu:hover {
+   background-color:#cdcdcd;
+   color:#F7F7F7;
+}
+
+.section-title {
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-style: italic;
+  color: black;
+}
+
+.entry {
+  background-color: #F7F7F7;
+  padding: 2rem;
+  margin:0;
+  margin-bottom: 50px; /* move to row */
+  border-bottom: 15px solid #dbdbdb;
+}
+
+.entry-name
+{
+  font-size: 6rem;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  color: black;
+}
+
+.entry-description  {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 120%;
+  margin-top: 10px;
+  color: #898989;
+}
+
+.entry-description a {
+  color: #898989;
+}
+
+.entry-description a:hover {
+  color: #a3a3a3;
+}
+
+.entry .label
+{
+  background-color:#ababab;
+  color:#F7F7F7;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  display:inline-block;
+}
+
+.odd
+{
+
+}
+
+/* Palette specific css below */
+
+.menu {
+	color:#1eaedb;
+}
+
+a.menu:hover {
+   background-color:#1eaedb;
+   color:#F7F7F7;
+}
+
+.entry {
+	border-top: 2px dotted #C9C9C9;
+	border-bottom: none;
+}

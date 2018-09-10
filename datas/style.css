@@ -52,17 +52,14 @@ a.social:hover {
   content: " \f14c";
 }
 
-.menu {
-  background-color: #F7F7F7;
-  color: #F7F7F7;
+.menu a {
+  color: #1eaedb;
   margin-right: 15px;
   text-decoration: none;
   padding: 5px;
-}
 
-a.menu:hover {
-   background-color:#cdcdcd;
-   color:#F7F7F7;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .section-title {

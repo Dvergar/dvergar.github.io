@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Laurent RAYMOND - Game Designer</title>
+
+    <meta name="description" content="Buying and setting up your developer chromebook made easy."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="favicon-16x16.png"/>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+    <link href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.css"  rel="preload" as="style" onload="this.rel='stylesheet'"/>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<section class="hero is-fullheight video">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            GAME DEVELOPMENT
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-video">
+    <video poster="img/bgimg.jpg" id="bgvid" playsinline autoplay muted loop>
+        <!-- <source src="vid/BGvid.webm" type="video/webm"> -->
+        <source src="header.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body ">
+    <div class="container has-text-centered">
+      <h1 class="title has-text-weight-light" style="font-size:5rem">
+        Laurent RAYMOND
+      </h1>
+      <h2 class="subtitle has-text-weight-light" style="font-size:3rem">
+        Game Designer
+      </h2>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+  <div class="buttons are-large is-centered" style="padding-bottom: 2rem">
+      <a class="button is-black" href="#about" style="background-color: #4bb8e7">About</a>
+      <a class="button is-black" href="#portfolio" style="background-color: #4bb8e7">Portfolio</a>
+      <a class="button is-black" href="#cv" style="background-color: #4bb8e7">CV</a>
+      <a class="button is-black" href="#contact" style="background-color: #4bb8e7">Contact</a>
+      </div>
+
+  </div>
+</section>
+
+
+<section class="section has-background-black-ter passion" id="about">
+
+<div class="tile is-ancestor">
+  <div class="tile is-7 is-vertical is-parent">
+
+    <div class="tile is-child box has-background-grey-dark has-text-white-ter">
+      <p class="title has-text-weight-light has-text-white-ter">Tech</p>
+      <p>I've been developing games in haxe, javascript, Lua, Python and in game engines such as Unity and Godot Engine but my expertise is in the <b>Haxe</b> language, as i can <b>target any platform</b>.</p>
+    </div>
+
+    <div class="tile is-child box  has-background-grey-dark has-text-white-ter">
+      <p class="title has-text-weight-light has-text-white-ter">Games</p>
+      <p>I've invested much of my time into multiplayer online games with strong emphasis on the mechanics. <b>I am now doing puzzle and educational games for the web and mobile.</b></p>
+    </div>
+
+  </div>
+
+  <div class="tile is-parent">
+    <div class="tile is-child box has-background-grey-dark has-text-white-ter">
+      <p class="title has-text-weight-light has-text-white-ter">Me</p>
+      <figure class="image is-128x128 is-pulled-left" style="padding-right:1rem">
+        <img class="is-rounded" src="me.jpg">
+      </figure>
+      <p>After my first steps in python i decided to invest my time into game development. I made many multiplayer online prototypes, participated into game jams and worked on many games.
+      I set on minimalistic puzzle games, sometimes targeted at children. I keep only the raw mechanic in my games.</p>
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+
+
+<section class="section has-background-black-ter" id="portfolio">
+<div class="container">
+
+  <h1 class="title has-text-centered has-text-grey has-text-weight-light is-size-1">Porfolio</h1>
+
+  
+
+  
+  <div class="columns is-centered">
+  
+
+    <div class="column">
+      <div class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
+
+        <header class="card-header">
+          <p class="card-header-title is-size-2 has-text-weight-light is-centered has-text-light">
+            Ukubala
+          </p>
+        </header>
+
+        <div class="card-image has-text-centered">
+          <figure class="image">
+
+            <video poster="dummy.jpg" playsinline autoplay muted loop>
+                <!-- <source src="vid/BGvid.webm" type="video/webm"> -->
+                <source src="ukubala.mp4" type="video/mp4">
+            </video>
+            
+          </figure>
+        </div>
+
+        <div class="card-content has-text-centered">
+            <div class="content is-medium">
+                <span class="is-size-3 has-text-weight-light">Calculus</span>
+                <p>Math puzzles where you have to resolve operations by activating one or several of the four operators.
+                </p>
+
+                
+                <em>Project in progress</em><br/><br/>
+                <a href="ukubala/index.html" class="button is-large is-info">Try now</a>
+                
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+   
+  
+  
+
+  
+
+    <div class="column">
+      <div class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
+
+        <header class="card-header">
+          <p class="card-header-title is-size-2 has-text-weight-light is-centered has-text-light">
+            Math RPG
+          </p>
+        </header>
+
+        <div class="card-image has-text-centered">
+          <figure class="image">
+
+            <video poster="dummy.jpg" playsinline autoplay muted loop>
+                <!-- <source src="vid/BGvid.webm" type="video/webm"> -->
+                <source src="mathrpg.mp4" type="video/mp4">
+            </video>
+            
+          </figure>
+        </div>
+
+        <div class="card-content has-text-centered">
+            <div class="content is-medium">
+                <span class="is-size-3 has-text-weight-light">Calculus</span>
+                <p>Rpg flavored calculus game. You beat monsters when resolving an operation.
+                </p>
+
+                
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+   
+  
+  </div>
+  
+  
+
+  
+
+    <div class="column">
+      <div class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
+
+        <header class="card-header">
+          <p class="card-header-title is-size-2 has-text-weight-light is-centered has-text-light">
+            Excaliword
+          </p>
+        </header>
+
+        <div class="card-image has-text-centered">
+          <figure class="image">
+
+            <video poster="dummy.jpg" playsinline autoplay muted loop>
+                <!-- <source src="vid/BGvid.webm" type="video/webm"> -->
+                <source src="excaliword.mp4" type="video/mp4">
+            </video>
+            
+          </figure>
+        </div>
+
+        <div class="card-content has-text-centered">
+            <div class="content is-medium">
+                <span class="is-size-3 has-text-weight-light">Words</span>
+                <p>A mix between scrabble and tower-defense in a duel competitive online game.
+                </p>
+
+                
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+   
+  
+  
+
+  
+  <div class="columns is-centered">
+  
+
+    <div class="column">
+      <div class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
+
+        <header class="card-header">
+          <p class="card-header-title is-size-2 has-text-weight-light is-centered has-text-light">
+            Word RPG
+          </p>
+        </header>
+
+        <div class="card-image has-text-centered">
+          <figure class="image">
+
+            <video poster="dummy.jpg" playsinline autoplay muted loop>
+                <!-- <source src="vid/BGvid.webm" type="video/webm"> -->
+                <source src="rpgword.mp4" type="video/mp4">
+            </video>
+            
+          </figure>
+        </div>
+
+        <div class="card-content has-text-centered">
+            <div class="content is-medium">
+                <span class="is-size-3 has-text-weight-light">Words</span>
+                <p>A mix between scrabble and tower-defense in a duel competitive online game.
+                </p>
+
+                
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+   
+  
+  
+
+  
+
+    <div class="column">
+      <div class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
+
+        <header class="card-header">
+          <p class="card-header-title is-size-2 has-text-weight-light is-centered has-text-light">
+            Trigger
+          </p>
+        </header>
+
+        <div class="card-image has-text-centered">
+          <figure class="image">
+
+            <video poster="dummy.jpg" playsinline autoplay muted loop>
+                <!-- <source src="vid/BGvid.webm" type="video/webm"> -->
+                <source src="trigger.mp4" type="video/mp4">
+            </video>
+            
+          </figure>
+        </div>
+
+        <div class="card-content has-text-centered">
+            <div class="content is-medium">
+                <span class="is-size-3 has-text-weight-light">Logic</span>
+                <p>Involves triggering the right piece to reach a goal point
+                </p>
+
+                
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+   
+  
+  </div>
+  
+  
+
+</div>
+</section>
+
+<section class="section" id="cv">
+<div class="content has-text-centered">
+<h1 class="title">Curriculum Vitae</h1>
+<a href="" class="button is-large has-text-weight-light">View as pdf &nbsp;<i class="fas fa-file"></i></a>
+</div>
+</section>
+
+<section class="section" id="contact">
+<div class="content has-text-centered">
+<h1 class="title">Contact</h1>
+<p>laurent.rd@gmail.com</p>
+</div>
+</section>
+
+
+    <script src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

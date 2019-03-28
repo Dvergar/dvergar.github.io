@@ -1,0 +1,29 @@
+-
+  title: Ukubala
+  description: Math puzzles where you have to resolve operations by activating one or several of the four operators.
+  video: ukubala.mp4
+  genre: Calculus
+
+-
+  title: Math RPG
+  description: Rpg flavored calculus game. You beat monsters when resolving an operation.
+  video: mathrpg.mp4
+  genre: Calculus
+
+-
+  title: Excaliword
+  description: A mix between scrabble and tower-defense in a duel competitive online game.
+  video: excaliword.mp4
+  genre: Words
+
+-
+  title: Word RPG
+  description: A mix between scrabble and tower-defense in a duel competitive online game.
+  video: rpgword.mp4
+  genre: Words
+
+-
+  title: Trigger
+  description: Involves triggering the right piece to reach a goal point
+  video: trigger.mp4
+  genre: Logic

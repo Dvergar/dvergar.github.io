@@ -1,6 +1,6 @@
 -
   title: Ukubala
-  description: Math puzzles where you have to resolve operations by activating one or several of the four operators.
+  description: Math puzzles where you have to resolve operations by selecting one or several of the four operators.
   video: ukubala.mp4
   genre: Calculus
 
@@ -18,12 +18,12 @@
 
 -
   title: Word RPG
-  description: A mix between scrabble and tower-defense in a duel competitive online game.
+  description: A typing game with skills and rpg elements.
   video: rpgword.mp4
   genre: Words
 
 -
   title: Trigger
-  description: Involves triggering the right piece to reach a goal point
+  description: Involves triggering the right piece to reach a specific spot.
   video: trigger.mp4
   genre: Logic

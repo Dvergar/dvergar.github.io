@@ -439,6 +439,8 @@ var Block = function(id,kx,ky,text,batcher,$void) {
 			this.operatorName = "equal";
 		}
 		var texture = Luxe.resources.cache.get("assets/" + this.operatorName + "_default.png");
+		texture.set_filter_mag(9728);
+		texture.set_filter_min(9728);
 		this.operatorSprite = new luxe_Sprite({ texture : texture, pos : new phoenix_Vector(Block.SIZE / 2,Block.SIZE / 2), depth : 3, batcher : batcher});
 		var _this = this.operatorSprite.get_transform();
 		var _p = this.box.get_transform();
@@ -710,6 +712,8 @@ Block.prototype = {
 		if(this.selected == 0) {
 			luxe_tween_Actuate.tween(this.blueBox.color,0.1,{ a : 1});
 			this.operatorSprite.set_texture(Luxe.resources.cache.get("assets/" + this.operatorName + "_selected.png"));
+			this.operatorSprite.texture.set_filter_mag(9728);
+			this.operatorSprite.texture.set_filter_min(9728);
 			if(this.id == 1 || this.id == 5) {
 				luxe_tween_Actuate.tween(this,0.3,{ expandBoxOriginWidth : 200}).ease(luxe_tween_easing_Sine.get_easeOut());
 			} else {
@@ -1230,6 +1234,7 @@ Main.prototype = $extend(luxe_Game.prototype,{
 		config.window.height = Math.floor(Main.h);
 		config.window.fullscreen = false;
 		config.render.antialiasing = 8;
+		config.preload.textures.push({ id : "assets/play.png"});
 		config.preload.textures.push({ id : "assets/arrow.png"});
 		config.preload.textures.push({ id : "assets/box_empty.png"});
 		config.preload.textures.push({ id : "assets/box_blue.png"});
@@ -1726,7 +1731,7 @@ Reflect.deleteField = function(o,field) {
 var SelectionPanel = function() {
 	Panel.call(this);
 	this.addBackButton();
-	var startButton = new MyButton(60,600,"arrow.png",this.batcher);
+	var startButton = new MyButton(360,400,"play.png",this.batcher);
 	startButton.onMouseUp = function() {
 		Main.menu.goToScene(GamePanel);
 	};
@@ -2075,6 +2080,8 @@ Type["typeof"] = function(v) {
 };
 var MyButton = function(x,y,image,batcher) {
 	this.sprite = new luxe_Sprite({ texture : Luxe.resources.cache.get("assets/" + image), pos : new phoenix_Vector(x,y), depth : 2, batcher : batcher});
+	this.sprite.texture.set_filter_mag(9728);
+	this.sprite.texture.set_filter_min(9728);
 	this.mouseEvent = Luxe.events.listen("mouse up",$bind(this,this._onMouseUp));
 };
 $hxClasses["MyButton"] = MyButton;

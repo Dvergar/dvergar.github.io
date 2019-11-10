@@ -41,6 +41,12 @@ h1 {
     }
 }
 
+#projects
+{
+    margin-top:3rem;
+    font-style: italic;
+}
+
 p {
     font-size: 1.7rem;
 }

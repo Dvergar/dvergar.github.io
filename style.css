@@ -1,13 +1,14 @@
 html {
     margin: 0;
     padding: 0;
+    padding: 6vw;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
     color: #EAD7D1;
     background-color: #342E37;
     width: 100vw;
     min-height: 100vh;
-    padding: 6vw;
+    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h1 {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 a {
@@ -53,22 +54,6 @@ a:hover {
     color: #f03a47;
 }
 
-/* .box {
-    font-size: 1.5rem;
-    margin: auto;
-    width: 60vw;
-    background-color: white;
-    color: #342E37;
-    padding: 3vw;
+em {
     font-weight: 300;
 }
-
-.box a {
-    color: #605366;
-}
-
-.shadow {
-    -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
-    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
-} */

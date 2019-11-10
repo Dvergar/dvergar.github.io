@@ -37,13 +37,12 @@ h1 {
 
 @media screen and (min-width: 1200px) {
     .links-container li {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
-#projects
-{
-    margin-top:3rem;
+#projects {
+    margin-top: 3rem;
     font-style: italic;
 }
 

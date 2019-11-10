@@ -7,11 +7,11 @@ html {
     background-color: #342E37;
     width: 100vw;
     min-height: 100vh;
-    padding: 10vw;
+    padding: 6vw;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: #f03a47;
 }
 
@@ -53,7 +53,7 @@ a:hover {
     color: #f03a47;
 }
 
-.box {
+/* .box {
     font-size: 1.5rem;
     margin: auto;
     width: 60vw;
@@ -71,4 +71,4 @@ a:hover {
     -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
     -moz-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
     box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
-}
+} */

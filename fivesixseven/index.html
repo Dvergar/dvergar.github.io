@@ -13,7 +13,9 @@
         -o-background-size: cover;
         background-size: cover;
         font-family: 'Lato', sans-serif;
+
     }
+
 
     #card {
         text-align: center;
@@ -22,11 +24,34 @@
         left: 3rem;
         top: 3rem;
         background-color: whitesmoke;
-        width: 10rem;
+        width: 15vw;
         -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.17);
         -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.17);
         box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.17);
     }
+
+
+    #playstore {
+        width: 100%;
+    }
+
+    @media only screen and (max-device-width: 480px) {
+        body {
+            font-size: 4rem;
+        }
+
+        #card {
+            width: 80vw;
+            padding: 4rem;
+            top:auto;
+            left:auto;
+            margin:auto;
+            margin-top:4rem;
+            position:relative
+        }
+    }
+
+
 
     a {
         color: black;
@@ -40,10 +65,12 @@
         Allow performers and students to archive dance routines and bind steps instructions to specific video timestamp.
         <br />
         <br />
-        <a
-            href='https://play.google.com/store/apps/details?id=app.fivesixseven&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-                width="150" alt='Get it on Google Play'
-                src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a>
+
+        <div><a
+                href='https://play.google.com/store/apps/details?id=app.fivesixseven&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                    id="playstore" alt='Get it on Google Play'
+                    src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a></div>
+
         <br /><br />
         <div><a href='https://trello.com/b/LV8KPuKW/five-six-seven'>Follow dev on trello</a></div>
     </div>

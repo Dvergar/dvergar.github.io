@@ -1,57 +1,74 @@
 html {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    color: #fafaff;
-    background-color: #30343f;
-
+    color: #EAD7D1;
+    background-color: #342E37;
     width: 100vw;
     min-height: 100vh;
-    padding: 6vw;
-  
+    padding: 10vw;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #f03a47;
 }
 
 .links-container {
     padding: 0;
     margin: 0;
-    padding-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     list-style: none;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    /* -webkit-flex-flow: row wrap; */
     justify-content: space-between;
-
 }
 
 .links-container li {
-
     color: white;
     font-size: 10vw;
-
 }
 
 @media screen and (min-width: 1200px) {
     .links-container li {
         font-size: 5rem;
     }
-  }
+}
 
 p {
     font-size: 1.8rem;
 }
 
 a {
-    color:white;
+    color: white;
     font-weight: 700;
 }
 
 a:hover {
-    color:#f03a47;
+    color: #f03a47;
+}
+
+.box {
+    font-size: 1.5rem;
+    margin: auto;
+    width: 60vw;
+    background-color: white;
+    color: #342E37;
+    padding: 3vw;
+    font-weight: 300;
+}
+
+.box a {
+    color: #605366;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.17);
 }

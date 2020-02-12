@@ -1,0 +1,32 @@
+html {
+    padding: 7%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    font-weight: 700;
+}
+
+em {
+    font-weight: 300;
+}
+
+p {
+    font-size: calc(16px + 1vw);
+    margin-bottom: calc(8px + 1vw);
+    margin-top: calc(8px + 1vw);
+}
+
+h1 {
+    font-size: calc(12px + 6vw);
+    margin: 0;
+    padding-bottom: calc(5px + 2vw);
+}

@@ -1,28 +1,21 @@
 html {
-    margin: 0;
-    padding: 0;
-    padding: 6vw;
-    box-sizing: border-box;
     color: #EAD7D1;
     background-color: #342E37;
-    font-family: "Roboto", sans-serif;
-    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 #projects svg {
     fill: #EAD7D1;
 }
 
-h1 {
-    font-size: 5rem;
-    color: #f03a47;
-}
-
 .links-container {
     padding: 0;
     margin: 0;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: calc(15px + 7vw);
     list-style: none;
     display: -webkit-box;
     display: -moz-box;
@@ -44,13 +37,12 @@ h1 {
 }
 
 #projects {
-    margin-top: 3rem;
+    margin-top: 5vw;
     font-style: italic;
 }
 
 a {
     color: white;
-    font-weight: 700;
 }
 
 a:hover {
@@ -61,10 +53,6 @@ svg:hover {
     fill: #f03a47;
 }
 
-em {
-    font-weight: 300;
-}
-
-p {
-    font-size: 1.7rem;
+h1 {
+    color: #f03a47;
 }

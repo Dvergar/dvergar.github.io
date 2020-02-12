@@ -1,83 +1,51 @@
 html {
-  margin: 0;
-  padding: 0;
-  padding: 6vw;
-  box-sizing: border-box;
   color: #EAD7D1;
   background-color: #342E37;
-  font-family: "Roboto", sans-serif;
-  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  font-size: 5rem;
-
-
-
   color: #686ae9;
-}
-
-span {
-  font-size: 1.5rem;
 }
 
 a {
   color: white;
-  font-weight: 700;
 }
 
 a:hover {
   color: #f03a47;
 }
 
-svg:hover {
-  fill: #f03a47;
+.vertical-wrapper {
+  height: calc(1.5rem + 4vw);
 }
 
-em {
-  font-weight: 300;
-}
-
-p {
-  font-size: 1.7rem;
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project {
-  margin-top: 4rem;
+  margin-bottom: 4rem;
   display: flex;
   flex-wrap: wrap;
   max-width: 700px;
 }
 
-
-/* .project img {
-  flex: 3;
-  min-width: 0;
-  width: 100%;
-  height: auto;
-} */
-
 .project .mockup {
   flex: 3;
-  /* min-width: 0; */
-  /* width: 100%; */
-  /* height: auto; */
 }
 
 .project .wrapper {
   flex: 1;
 }
 
-.project .description {
+.project .column {
   flex: 8;
 }
 
 
-
-
 /* Mobile phone mockup */
-
-
 .device {
   border-radius: 20px;
   position: relative;
@@ -112,8 +80,6 @@ p {
 }
 
 
-
-
 /* Phone button */
 .phone::after {
   border-radius: 50%;
@@ -127,6 +93,7 @@ p {
   box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, .12);
 }
 
+
 /* Phone speaker */
 .phone::before {
   border-radius: 50px;
@@ -138,14 +105,3 @@ p {
   height: 1%;
   box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, .12);
 }
-
-
-
-
-
-
-
-
-
-
-

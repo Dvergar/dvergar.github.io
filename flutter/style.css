@@ -28,9 +28,9 @@ a:hover {
 .row {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  align-content: flex-start;
-  justify-content: start;
+  align-items: center;
+  /* align-content: flex-start;
+  justify-content: start; */
   flex-wrap: wrap;
 }
 
@@ -53,17 +53,14 @@ a:hover {
   flex: 8;
 }
 
-
 /* Mobile phone mockup */
+
 .device {
   border-radius: 20px;
   position: relative;
   box-sizing: border-box;
   background: #fff;
-  box-shadow: inset 0 4px 7px 1px #fff,
-    inset 0 -5px 20px rgba(173, 186, 204, .25),
-    0 2px 6px rgba(0, 21, 64, .14),
-    0 10px 20px rgba(0, 21, 64, .05);
+  box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, .25), 0 2px 6px rgba(0, 21, 64, .14), 0 10px 20px rgba(0, 21, 64, .05);
 }
 
 .device img {
@@ -72,24 +69,20 @@ a:hover {
   border: 1px solid rgba(0, 0, 0, .24);
 }
 
-.device::before,
-.device::after {
+.device::before, .device::after {
   content: "";
   display: block;
   position: absolute;
   background: #fff;
-  box-shadow: inset 0 4px 7px 1px #fff,
-    inset 0 -5px 20px rgba(173, 186, 204, .25),
-    0 2px 6px rgba(0, 21, 64, .14),
-    0 10px 20px rgba(0, 21, 64, .05);
+  box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, .25), 0 2px 6px rgba(0, 21, 64, .14), 0 10px 20px rgba(0, 21, 64, .05);
 }
 
 .phone {
   padding: 12% 3%;
 }
 
-
 /* Phone button */
+
 .phone::after {
   border-radius: 50%;
   margin: 0 auto 2%;
@@ -102,8 +95,8 @@ a:hover {
   box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, .12);
 }
 
-
 /* Phone speaker */
+
 .phone::before {
   border-radius: 50px;
   margin: 5.5% auto 0;
@@ -115,23 +108,28 @@ a:hover {
   box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, .12);
 }
 
-.github-button
-{
+.github-button {
   cursor: pointer;
-  font-size: 1.2rem;
-    border: 1px solid green;
-    border-radius: 10px;
-    padding: 10px;
-    width: max-content;
-    height: 50px;
-    background-color: azure;
-    color:black;
+  font-size: 1.5rem;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px;
+  width: max-content;
+  height: 50px;
+  background-color: azure;
+  color: black;
 }
 
 .github-button img {
-  height:20px;
+  height: 20px;
 }
 
+.github-button span {
+  /* display: flex;
+  align-items: center; */
+}
+
+
 .google-badge {
-  height:70px;
+  height: 60px;
 }

@@ -113,7 +113,7 @@ a:hover {
   height: 42px;
   width: max-content;
   padding: 10px;
-  border: 1px solid green;
+  border: 1px solid black;
   border-radius: 10px;
   cursor: pointer;
 }

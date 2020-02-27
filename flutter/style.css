@@ -106,23 +106,27 @@ a:hover {
   box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, .12);
 }
 
-.github-button {
-  background-color: azure;
-  color: black;
-  font-size: 1.3rem;
-  height: 42px;
-  width: max-content;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.github-button img {
-  height: 17px;
-}
-
 
 .google-badge {
   height: 60px;
+}
+
+.gh {
+  font-weight: 500;
+  background-color: azure;
+  color: black;
+  font-size: 1.3rem;
+  width: max-content;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.gh:hover {
+  color:black;
+}
+
+.gh img {
+  height: 17px;
 }

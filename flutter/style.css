@@ -106,7 +106,6 @@ a:hover {
   box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, .12);
 }
 
-<<<<<<< HEAD
 .github-button {
   cursor: pointer;
   font-size: 1.5rem;
@@ -118,8 +117,6 @@ a:hover {
   background-color: azure;
   color: black;
 }
-=======
->>>>>>> dae898b513cda0304d09a0355c9d0dca1182791b
 
 .google-badge {
   height: 60px;
@@ -138,7 +135,7 @@ a:hover {
 }
 
 .gh:hover {
-  color:black;
+  color: black;
 }
 
 .gh img {

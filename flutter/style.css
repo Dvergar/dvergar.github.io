@@ -29,8 +29,6 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* align-content: flex-start;
-  justify-content: start; */
   flex-wrap: wrap;
 }
 
@@ -108,6 +106,7 @@ a:hover {
   box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, .12);
 }
 
+<<<<<<< HEAD
 .github-button {
   cursor: pointer;
   font-size: 1.5rem;
@@ -119,17 +118,29 @@ a:hover {
   background-color: azure;
   color: black;
 }
-
-.github-button img {
-  height: 20px;
-}
-
-.github-button span {
-  /* display: flex;
-  align-items: center; */
-}
-
+=======
+>>>>>>> dae898b513cda0304d09a0355c9d0dca1182791b
 
 .google-badge {
   height: 60px;
+}
+
+.gh {
+  font-weight: 500;
+  background-color: azure;
+  color: black;
+  font-size: 1.3rem;
+  width: max-content;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.gh:hover {
+  color:black;
+}
+
+.gh img {
+  height: 17px;
 }

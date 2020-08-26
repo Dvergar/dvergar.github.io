@@ -20,13 +20,13 @@ em {
 }
 
 p {
-    font-size: calc(16px + 1vw);
+    font-size: calc(14px + 1vw);
     margin-bottom: calc(8px + 1vw);
     margin-top: calc(8px + 1vw);
 }
 
 h1 {
-    font-size: calc(12px + 6vw);
+    font-size: calc(12px + 4vw);
     margin: 0;
     padding-bottom: calc(5px + 2vw);
 }

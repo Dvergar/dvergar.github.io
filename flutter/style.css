@@ -11,6 +11,10 @@ p.description {
   margin: 0;
 }
 
+p.tech {
+  font-weight: 300;
+}
+
 a {
   color: white;
 }

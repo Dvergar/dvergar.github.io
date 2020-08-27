@@ -11,8 +11,12 @@ p.description {
   margin: 0;
 }
 
-p.tech {
+p.section {
   font-weight: 300;
+}
+
+span.section-title {
+  border-bottom-style: dotted;
 }
 
 a {

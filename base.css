@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    font-size: calc(8px + 2vw);
+    font-size: calc(12px + 2vw);
     margin: 0;
-    padding-bottom: calc(3px + 2vw);
+    padding-bottom: calc(6px + 3vw);
 }

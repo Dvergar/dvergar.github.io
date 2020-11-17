@@ -30,16 +30,6 @@ body {
     margin-top: auto;
 }
 
-.mybox {
-    border: 2px solid hsl(204, 86%, 53%);
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    /* future proofing */
-    -khtml-border-radius: 10px;
-    /* for old Konqueror browsers */
-}
-
 #about {
     font-weight: 100;
 }

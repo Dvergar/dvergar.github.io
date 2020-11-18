@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="favicon-16x16.png"/>
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
     <link href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.css"  rel="preload" as="style" onload="this.rel='stylesheet'"/>
@@ -52,33 +52,32 @@
 </section>
 
 
-<section class="section has-background-black-ter passion" id="about">
+<section class="section has-background-grey-dark" id="about">
 
-<div class="tile is-ancestor">
-  <div class="tile is-7 is-vertical is-parent">
+<div class="container has-text-white-ter">
 
-    <div class="tile is-child box has-background-grey-dark has-text-white-ter">
-      <p class="title has-text-weight-light has-text-white-ter">Tech</p>
-      <p>I've been developing games in haxe, javascript, Lua, Python and in game engines such as Unity and Godot Engine but my expertise is in the <b>Haxe</b> language, 
-      as i can <b>target any platform</b> and makes porting as3 (flash) games to web or desktop fast.</p>
-    </div>
+  
 
-    <div class="tile is-child box  has-background-grey-dark has-text-white-ter">
-      <p class="title has-text-weight-light has-text-white-ter">Games</p>
-      <p>I've invested much of my time into multiplayer online games with strong emphasis on the mechanics. <b>I am now doing puzzle and educational games for the web and mobile.</b></p>
-    </div>
+<div class="container">
 
+  <div class="container pb-5">
+    <figure class="image container is-128x128" style="padding-right:1rem">
+      <img class="is-rounded" src="me.jpg">
+    </figure>
+
+    <p class="is-size-4">After my first steps in python i decided to invest my time into game development. I made many multiplayer online prototypes, participated into game jams and worked on many games.
+    I set on minimalistic puzzle games, sometimes targeted at children. I keep only the raw mechanic in my games.</p>
   </div>
 
-  <div class="tile is-parent">
-    <div class="tile is-child box has-background-grey-dark has-text-white-ter">
-      <p class="title has-text-weight-light has-text-white-ter">Me</p>
-      <figure class="image is-128x128 is-pulled-left" style="padding-right:1rem">
-        <img class="is-rounded" src="me.jpg">
-      </figure>
-      <p>After my first steps in python i decided to invest my time into game development. I made many multiplayer online prototypes, participated into game jams and worked on many games.
-      I set on minimalistic puzzle games, sometimes targeted at children. I keep only the raw mechanic in my games.</p>
-    </div>
+  <div class="container pb-5">
+    <h1 class="title has-text-centered has-text-white-ter">Tech</h1>
+    <p class="is-size-4">I've been developing games in haxe, javascript, Lua, Python and in game engines such as Unity and Godot Engine but my expertise is in the <b>Haxe</b> language, 
+    as i can <b>target any platform</b> and makes porting as3 (flash) games to web or desktop fast.</p></div>
+  </div>
+
+  <div class="container pb-5">
+    <h1 class="title has-text-centered has-text-white-ter">Games</h1>
+    <p class="is-size-4">I've invested much of my time into multiplayer online games with strong emphasis on the mechanics. <b>I am now doing puzzle and educational games for the web and mobile.</b></p>
   </div>
 
 </div>
@@ -141,47 +140,6 @@
   
 
     <div class="column">
-      <div id="Test" class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
-
-        <header class="card-header">
-          <p class="card-header-title is-size-2 has-text-weight-light is-centered has-text-light">
-            Test
-          </p>
-        </header>
-
-        <div class="card-image has-text-centered">
-          <figure class="image">
-
-            <video poster="dummy.jpg" playsinline autoplay muted loop>
-                <!-- <source src="vid/BGvid.webm" type="video/webm"> -->
-                <source src="ukubala.mp4" type="video/mp4">
-            </video>
-            
-          </figure>
-        </div>
-
-        <div class="card-content has-text-centered">
-            <div class="content is-medium">
-                <span class="is-size-3 has-text-weight-light">Calculus</span>
-                <p>Math puzzles where you have to resolve operations by selecting one or several of the four operators.
-                </p>
-
-                
-            </div>
-        </div>
-
-      </div>
-
-    </div>
-   
-  
-  </div>
-  
-  
-
-  
-
-    <div class="column">
       <div id="Math RPG" class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
 
         <header class="card-header">
@@ -216,10 +174,10 @@
     </div>
    
   
+  </div>
+  
   
 
-  
-  <div class="columns is-centered">
   
 
     <div class="column">
@@ -260,6 +218,8 @@
   
 
   
+  <div class="columns is-centered">
+  
 
     <div class="column">
       <div id="Word RPG" class="card is-shady has-background-grey-darker has-text-grey-lighter has-equal-height">
@@ -295,8 +255,6 @@
 
     </div>
    
-  
-  </div>
   
   
 

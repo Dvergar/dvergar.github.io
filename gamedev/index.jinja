@@ -121,8 +121,10 @@
                 <p>{{ game.description }}
                 </p>
 
-                {% if game.title == "Ukubala" %}
+                {% if game.title == "Ukubala" or game.title == "RL platformer" %}
                 <em>Project in progress</em><br/><br/>
+                {% endif %}
+                {% if game.title == "Ukubala" %}
                 <a href="ukubala/index.html" class="button is-large is-info">Try now</a>
                 {% endif %}
             </div>

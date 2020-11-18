@@ -1,4 +1,10 @@
 -
+  title: RL platformer
+  description: Climb the dungeon as far as you can, collecting characters powers along the way.
+  video: platformer.mp4
+  genre: Platformer
+
+-
   title: Ukubala
   description: Math puzzles where you have to resolve operations by selecting one or several of the four operators.
   video: ukubala.mp4

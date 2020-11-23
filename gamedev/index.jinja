@@ -93,7 +93,7 @@
 
   {% for game in y.games %}
 
-  {% if loop.index0 %3 == 0 %}
+  {% if loop.index0 %2 == 0 %}
   <div class="columns is-centered">
   {% endif %}
 
@@ -134,7 +134,7 @@
 
     </div>
    
-  {% if loop.index % 3 == 2 or loop.last %}
+  {% if loop.index0 % 2 == 1 or loop.last %}
   </div>
   {% endif %}
   {% endfor %}

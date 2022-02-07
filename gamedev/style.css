@@ -2,15 +2,6 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.passion {
-    background: #232526;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .header-image {
     background-image: url("code.png");
     background-position: center center;
@@ -28,16 +19,6 @@ body {
 
 .has-equal-height .card-footer {
     margin-top: auto;
-}
-
-.mybox {
-    border: 2px solid hsl(204, 86%, 53%);
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    /* future proofing */
-    -khtml-border-radius: 10px;
-    /* for old Konqueror browsers */
 }
 
 #about {
